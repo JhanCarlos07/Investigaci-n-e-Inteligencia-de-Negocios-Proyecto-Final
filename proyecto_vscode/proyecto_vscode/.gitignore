@@ -1,0 +1,33 @@
+# Entorno virtual
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.pytest_cache/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Outputs generados (excepto la carpeta)
+outputs/figuras/*.png
+outputs/*.json
+outputs/*.csv
+!outputs/.gitkeep
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
